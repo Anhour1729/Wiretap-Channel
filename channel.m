@@ -1,8 +1,17 @@
 function out_signal = channel(data,select)
+
 %参数说明：
 %data为经过信道前的数据串
 %select为选择信道类型，1为理想信道，2为较好的BSC信道，3为较差的BSC信道
 %其中A-E一直用3信道，A-B可根据题目中的不同要求选择1或2信道
+
+ 
+%Description des paramètres :
+%data est la chaîne de données avant le passage dans le canal
+%select permet de sélectionner le type de canal, 1 est le canal idéal, 2 est le meilleur canal BSC, 3 est le moins bon canal BSC
+%A-E utilise toujours 3 canaux, A-B peut choisir 1 ou 2 canaux en fonction des différentes exigences de la question.
+  
+
 l=length(data);
 
 
